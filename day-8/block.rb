@@ -1,24 +1,24 @@
-# name = [ "name1","name2","name3"]
+name = [ "name1","name2","name3"]
 
-# name.each { |name|
-#   p "weclome #{name}"
-# }
+name.each { |name|
+  p "weclome #{name}"
+}
 
-# def add(num1, num2)
-#   sum = num1 + num2
-# end
+def add(num1, num2)
+  sum = num1 + num2
+end
 
-# p add(29, 62)
+p add(29, 62)
 
-# def greet 
-#   yield("Alex")
-#   p "the value of name os #{name}"
-# end
+def greet 
+  yield("Alex")
+  p "the value of name os #{name}"
+end
 
-# greet { |name| p "value of name in block is #{name}" }
+greet { |name| p "value of name in block is #{name}" }
 
-# names = ["Alex", "Saad", "Sally"]
-# names.each { |name| puts "Welcome #{name}" }
+names = ["Alex", "Saad", "Sally"]
+names.each { |name| puts "Welcome #{name}" }
 
 names = ["Alex", "Saad", "Sally"]
 
